@@ -1,0 +1,11 @@
+<p>satu works!</p>
+<p>nama saya : {{nama}}</p>
+<p>jurusan saya : {{jurusan}}</p>
+<p>semester : {{semester }}</p>
+<p>hobby</p>
+<ul>
+  <li *ngFor="let hobi of hobby">
+    <b *ngIf="hobi == 'makan'">{{hobi}}</b>
+    <i *ngIf="hobi != 'makan'">{{hobi}}</i>
+  </li>
+</ul>
